@@ -159,7 +159,7 @@ OUTPUT_FOLDER = "uuid_images"
 Analyze images using Llama 4 Scout vision model:
 
 ```bash
-python scripts/2_describe_images.py
+python script/discription_of_image_json.py
 ```
 
 **Configuration:**
@@ -331,7 +331,7 @@ batch_size = 16  # Reduce from 32
 
 **Solution:** Verify paths are correct and images exist:
 ```bash
-dir data\uuid_images
+dir \uuid_images
 ```
 
 ### No Results Found
